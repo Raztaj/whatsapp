@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "قميص قطني أبيض",
+    "price": 150,
+    "image": "images/shirt.jpg"
+  },
+  {
+    "id": 2,
+    "name": "حذاء رياضي أسود",
+    "price": 300,
+    "image": "images/shoes.jpg"
+  }
+]
