@@ -52,10 +52,29 @@ nav h1 a {
     margin: 0;
 }
 
+.cart-button {
+    display: flex;
+    align-items: center;
+    background-color: var(--accent-color);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cart-button:hover {
+    background-color: #0056b3;
+}
+
+.cart-text {
+    margin-left: 8px;
+    font-weight: bold;
+}
+
 .cart-icon {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     position: relative;
-    color: var(--secondary-color);
 }
 
 #cart-count {
@@ -157,6 +176,24 @@ h2 {
 .product-card:hover button {
     opacity: 1;
     transform: translateX(-50%) translateY(0);
+}
+
+/* --- Page Header for Checkout --- */
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.continue-shopping-btn {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.continue-shopping-btn:hover {
+    text-decoration: underline;
 }
 
 .product-card button:hover {
